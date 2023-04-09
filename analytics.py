@@ -1,7 +1,3 @@
-import subprocess
-subprocess.check_call(["pip", "install", "geopy"])
-subprocess.check_call(["pip", "install", "pymysql"])
-subprocess.check_call(["pip", "install", "cryptography"])
 import json
 from datetime import datetime, timedelta
 from geopy.distance import distance
